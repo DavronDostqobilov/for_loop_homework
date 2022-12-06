@@ -8,4 +8,4 @@ def main(n):
     """
     x=range(0,n)
     return list(x)
-print(main(8))
+print(main(9))
