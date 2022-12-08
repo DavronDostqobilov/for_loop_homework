@@ -9,7 +9,6 @@ def main(k,n):
     """
     list1=[]
     for i in range(n):
-        list1.append(k)
-        
+        list1.append(k) 
     return list1
 print(main(5,3))
