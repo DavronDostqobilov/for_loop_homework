@@ -6,4 +6,8 @@ def main(list1):
     Returns:
         list: return  answer
     """
-    return
+    s=' '.join(list1)
+    x=s.title()
+    d=x.split()
+    return d
+print(main(['davron','ilhom']))
