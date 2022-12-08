@@ -8,8 +8,8 @@ def main(k,n):
         list: return  answer
     """
     list1=[]
-    for i in range(k):
-        list1.append(n)
+    for i in range(n):
+        list1.append(k)
         
     return list1
-print(main(4,1))
+print(main(5,3))
